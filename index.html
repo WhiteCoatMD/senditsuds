@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Send It Suds | Premium Auto Detailing Products</title>
+  <meta name="description" content="Send It Suds offers premium auto detailing soaps, ceramic coatings, waxes, and polishes. Professional-grade products for car enthusiasts and detailers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-container">
+      <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a href="/" class="logo">
+        <span class="logo-send">SEND IT</span>
+        <span class="logo-suds">SUDS</span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="search-btn" aria-label="Search">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+        <a href="#cart" class="cart-btn" aria-label="Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <span class="cart-count">0</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Carousel -->
+  <section class="hero" id="home">
+    <div class="hero-carousel" id="heroCarousel">
+      <div class="hero-slide active" data-slide="0">
+        <div class="hero-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=1920&q=80')"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Premium Foam.<br>Unmatched Clean.</h1>
+          <p>Experience the thickest, slickest foam that lifts dirt effortlessly and leaves a brilliant shine.</p>
+          <a href="#products" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="hero-slide" data-slide="1">
+        <div class="hero-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=1920&q=80')"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Ceramic Protection.<br>Next-Level Shine.</h1>
+          <p>Lock in that showroom finish with our advanced ceramic spray technology.</p>
+          <a href="#products" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="hero-slide" data-slide="2">
+        <div class="hero-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1507136566006-cfc505b114fc?w=1920&q=80')"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Detail Like a Pro.<br>Every Single Time.</h1>
+          <p>Professional-grade formulas trusted by detailers and enthusiasts worldwide.</p>
+          <a href="#products" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+      <div class="hero-slide" data-slide="3">
+        <div class="hero-slide-bg" style="background-image: url('https://images.unsplash.com/photo-1619405399517-d7fce0f13302?w=1920&q=80')"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <h1>Interior &amp; Exterior.<br>Total Care Solutions.</h1>
+          <p>From leather seats to chrome bumpers, we have the perfect formula for every surface.</p>
+          <a href="#products" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-controls">
+      <button class="hero-prev" aria-label="Previous slide">&#10094;</button>
+      <div class="hero-dots">
+        <button class="hero-dot active" data-slide="0" aria-label="Slide 1"></button>
+        <button class="hero-dot" data-slide="1" aria-label="Slide 2"></button>
+        <button class="hero-dot" data-slide="2" aria-label="Slide 3"></button>
+        <button class="hero-dot" data-slide="3" aria-label="Slide 4"></button>
+      </div>
+      <button class="hero-next" aria-label="Next slide">&#10095;</button>
+    </div>
+  </section>
+
+  <!-- Product Spotlights -->
+  <section class="spotlights">
+    <div class="container">
+      <h2 class="section-title">Why Choose Send It Suds?</h2>
+      <div class="spotlights-grid">
+        <div class="spotlight-card">
+          <div class="spotlight-image">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" alt="Thick foam soap on vehicle">
+          </div>
+          <div class="spotlight-content">
+            <h3>Ultra-Thick Foam Blast</h3>
+            <p>Our signature foam soap delivers an incredibly rich, clinging lather that encapsulates dirt and grime. Rinses clean with zero streaks, leaving your paint looking showroom fresh every single wash.</p>
+            <a href="#products" class="btn btn-outline">Shop Now</a>
+          </div>
+        </div>
+        <div class="spotlight-card">
+          <div class="spotlight-image">
+            <img src="https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?w=600&q=80" alt="Chrome polish application">
+          </div>
+          <div class="spotlight-content">
+            <h3>Mirror-Finish Metal Polish</h3>
+            <p>Restore brilliance to chrome, aluminum, and alloy surfaces with our advanced metal polish. Removes oxidation, tarnish, and water spots to reveal a mirror-like finish that turns heads.</p>
+            <a href="#products" class="btn btn-outline">Shop Now</a>
+          </div>
+        </div>
+        <div class="spotlight-card">
+          <div class="spotlight-image">
+            <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=600&q=80" alt="Ceramic spray coating">
+          </div>
+          <div class="spotlight-content">
+            <h3>Ceramic Shield Spray</h3>
+            <p>Advanced SiO2 ceramic technology creates an ultra-hydrophobic barrier that repels water, UV rays, and contaminants. One application delivers months of glossy, protected finish.</p>
+            <a href="#products" class="btn btn-outline">Shop Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <h2 class="section-title">What Our Customers Say</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"Best foam soap I've ever used. The foam is incredibly thick and it rinses off perfectly clean. My truck has never looked this good."</p>
+          <div class="testimonial-author">
+            <strong>Mike R.</strong>
+            <span>Phoenix, AZ</span>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"The ceramic spray is a game changer. Water just beads right off and the shine lasts for weeks. Worth every penny."</p>
+          <div class="testimonial-author">
+            <strong>Sarah T.</strong>
+            <span>Austin, TX</span>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p class="testimonial-text">"I'm a professional detailer and Send It Suds is all I use now. The quality is unmatched and my clients always notice the difference."</p>
+          <div class="testimonial-author">
+            <strong>Carlos M.</strong>
+            <span>San Diego, CA</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Bundle -->
+  <section class="featured-bundle">
+    <div class="container">
+      <div class="bundle-wrapper">
+        <div class="bundle-image">
+          <img src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?w=800&q=80" alt="Send It Suds Complete Detail Kit">
+          <span class="bundle-badge">Best Value</span>
+        </div>
+        <div class="bundle-content">
+          <span class="bundle-tag">Featured Bundle</span>
+          <h2>The Send It Starter Kit</h2>
+          <p class="bundle-price">$49.99</p>
+          <p class="bundle-description">Everything you need for a complete detail in one box. Includes our best-selling Foam Blast Soap, Ceramic Shield Spray, and Mirror-Finish Metal Polish. Save $18 when you buy the bundle.</p>
+          <ul class="bundle-includes">
+            <li>1 Gallon Foam Blast Soap</li>
+            <li>16 oz Ceramic Shield Spray</li>
+            <li>8 oz Mirror-Finish Metal Polish</li>
+          </ul>
+          <a href="#" class="btn btn-primary">Add to Cart &mdash; $49.99</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Collection -->
+  <section class="products" id="products">
+    <div class="container">
+      <h2 class="section-title">Our Products</h2>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=400&q=80" alt="Foam Blast Soap">
+          </div>
+          <div class="product-info">
+            <h3>Foam Blast Soap</h3>
+            <p class="product-subtitle">Foam Cannon + Bucket Soap</p>
+            <p class="product-price">$29.99</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=400&q=80" alt="Ceramic Shield Spray">
+          </div>
+          <div class="product-info">
+            <h3>Ceramic Shield Spray</h3>
+            <p class="product-subtitle">SiO2 Ceramic Coating</p>
+            <p class="product-price">$24.99</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1610647752706-3bb12232b3ab?w=400&q=80" alt="Mirror-Finish Metal Polish">
+          </div>
+          <div class="product-info">
+            <h3>Mirror-Finish Metal Polish</h3>
+            <p class="product-subtitle">Chrome &amp; Alloy Restorer</p>
+            <p class="product-price">$22.99</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1619405399517-d7fce0f13302?w=400&q=80" alt="All Purpose Cleaner">
+          </div>
+          <div class="product-info">
+            <h3>All Purpose Cleaner</h3>
+            <p class="product-subtitle">Interior &amp; Exterior Formula</p>
+            <p class="product-price">$14.99</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?w=400&q=80" alt="Wash & Wax">
+          </div>
+          <div class="product-info">
+            <h3>Wash &amp; Wax</h3>
+            <p class="product-subtitle">Foam Cannon + Bucket Soap</p>
+            <p class="product-price">$32.99</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-image">
+            <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?w=400&q=80" alt="Send It Starter Kit">
+          </div>
+          <div class="product-info">
+            <h3>The Send It Starter Kit</h3>
+            <p class="product-subtitle">Complete Detail Bundle</p>
+            <p class="product-price">$49.99</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Teaser -->
+  <section class="about-teaser" id="about">
+    <div class="container">
+      <div class="about-wrapper">
+        <div class="about-content">
+          <h2>Crafted for Those Who Send It</h2>
+          <p>At Send It Suds, we believe your ride deserves the absolute best. Born from a passion for cars and an obsession with the perfect detail, our products are engineered using cutting-edge chemistry to deliver professional-grade results every time.</p>
+          <p>Whether you're a weekend warrior foam-cannoning your daily driver, a professional detailer building your reputation, or an enthusiast prepping for a show &mdash; Send It Suds gives you the confidence to send it, knowing your finish is flawless.</p>
+          <a href="#contact" class="btn btn-outline">Learn More About Us</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1507136566006-cfc505b114fc?w=800&q=80" alt="Professional car detailing">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter / Contact -->
+  <section class="newsletter" id="contact">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>Stay in the Loop</h2>
+        <p>Sign up for exclusive deals, new product drops, and detailing tips straight to your inbox.</p>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" placeholder="Enter your email" required aria-label="Email address">
+          <button type="submit" class="btn btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <span class="logo-send">SEND IT</span>
+            <span class="logo-suds">SUDS</span>
+          </a>
+          <p>Premium auto detailing products for enthusiasts and professionals. Engineered for perfection.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Shipping &amp; Returns</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Safety Data Sheets</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">TikTok</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Send It Suds. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
